@@ -47,5 +47,4 @@ $ roslaunch tracking.launch
 
 ### Credits
 * SONG, YeonJi
-* This is the final project of the course `ELEC3210: Machine Learning and Information Processing for Robotic Perception` by Prof. LIU Ming in Fall 2020 at HKUST
-
+* This is the final project of the course `ELEC3210: Machine Learning and Information Processing for Robotics` by Prof. LIU Ming in Fall 2020 at HKUST
