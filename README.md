@@ -24,13 +24,26 @@
 ```
 $ roslaunch hector.launch
 ```
+
 For mapping only:
 ```
 $ roslaunch mapping.launch
 ```
-5. control the robot by keyboard (i j k l ,)
+<img src="image/Figure2.png">
+
+For face detection only:
+```
+$ roslaunch detecting.launch
+```
 <img src="image/Figure4.png">
+
+For automatic ball tracking only:
+```
+$ roslaunch tracking.launch
+```
 <img src="image/Figure5.png">
+
+5. control the robot by keyboard (i j k l ,)
 
 ### Credits
 * SONG, YeonJi
