@@ -8,7 +8,7 @@
 * Visual Servoing (follow the yellow ball)
 * Run everything in a single launch file
 
-<img src="image/Figure1.png">
+<img src="image/Figure1.png" width="800">
 
 ## PREREQUISITE
 1. ROS environment (this repo refers to noetic version)
@@ -25,25 +25,25 @@
 $ roslaunch hector.launch
 ```
 
-For mapping only:
+- For mapping only:
 ```
 $ roslaunch mapping.launch
 ```
-<img src="image/Figure2.png">
+<img src="image/Figure2.png" width="800">
 
-For face detection only:
+- For face detection only:
 ```
 $ roslaunch detecting.launch
 ```
-<img src="image/Figure4.png">
+<img src="image/Figure4.png" width="800">
 
-For automatic ball tracking only:
+- For automatic ball tracking only:
 ```
 $ roslaunch tracking.launch
 ```
-<img src="image/Figure5.png">
+<img src="image/Figure5.png" width="800">
 
-5. control the robot by keyboard (i j k l ,)
+5. Control the robot by keyboard (i j k l ,)
 
 ### Credits
 * SONG, YeonJi
