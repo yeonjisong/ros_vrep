@@ -8,6 +8,8 @@
 * Visual Servoing (follow the yellow ball)
 * Run everything in a single launch file
 
+<img src="image/Figure1.png">
+
 ## PREREQUISITE
 1. ROS environment (this repo refers to noetic version)
 2. VREP simulator
@@ -18,12 +20,17 @@
 1. open one terminal and run `$ roscore`
 2. open another terminal and run `$ . ~/V-REP/vrep.sh`
 3. Once a blank scene in vrep appear, open `env.ttt` and press the start bottom
-4. control the robot by keyboard (i j k l ,)
-5. launch the ros nodes for face detection/recognition and automatic ball tracking
+4. launch the ros nodes for face detection/recognition and automatic ball tracking
 ```
 $ roslaunch hector.launch
 ```
-
+For mapping only:
+```
+$ roslaunch mapping.launch
+```
+5. control the robot by keyboard (i j k l ,)
+<img src="image/Figure4.png">
+<img src="image/Figure5.png">
 
 ### Credits
 * SONG, YeonJi
