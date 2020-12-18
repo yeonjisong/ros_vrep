@@ -18,7 +18,7 @@
 
 ## RUN
 1. open one terminal and run `$ roscore`
-2. open another terminal and run `$ . ~/V-REP/vrep.sh`
+2. open another terminal and run `$ V-REP/vrep.sh`
 3. Once a blank scene in vrep appear, open `env.ttt` and press the start bottom
 4. launch the ros nodes for face detection/recognition and automatic ball tracking
 ```
