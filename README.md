@@ -2,7 +2,7 @@
 
 
 ## TASK
-* Build 2D grid map with laserscan data avia `rviz`
+* Build 2D grid map with laserscan data via `rviz`
 * Control the mobile robot in the `vrep` simulation environment with keyboard
 * Image Recognition and localization
 * Visual Servoing (follow the yellow ball)
